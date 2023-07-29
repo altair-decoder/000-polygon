@@ -28,7 +28,7 @@ export default function Welcome() {
                 <div className="grid justify-items-center bg-cover bg-[#bad0ff] relative min-h-screen">
                     {/* <Disclaimer/> */}
                     <hr />
-                    <div className="">
+                    <div className="mt-10">
                         <Mintingcomponent />
                     </div>
                 </div>
