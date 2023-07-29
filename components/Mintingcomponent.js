@@ -38,7 +38,7 @@ export default function Mintingcomponent() {
         if (chain) {
             if (chain["id"] == 1) {
                 if (collectiontype == 1) {
-                    pullerc721Json(erc721goerli)
+                    pullerc721Json(erc721mumbai)
                 }
                 if (collectiontype == 2) {
                     pullerc1155Json(erc1155goerli)
@@ -102,6 +102,11 @@ export default function Mintingcomponent() {
                     pullerc4907Json(erc4907goerli)
                 }
                 // console.log(1)
+            }
+            if (chain["id"] == 137) {
+                if (collectiontype == 1) {
+                    pullerc721Json(erc721polygon)
+                }
             }
             if (chain["id"] == 80001) {
                 if (collectiontype == 1) {
