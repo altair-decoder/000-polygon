@@ -25,7 +25,7 @@ export default function Mintingcomponent() {
     const { switchNetwork } = useSwitchNetwork()
     useEffect(() => {
         if (collectiontype == 1) {
-            pullerc721Json(erc721goerli)
+            pullerc721Json(erc721mumbai)
         }
         if (collectiontype == 2) {
             pullerc1155Json(erc1155goerli)
@@ -38,7 +38,7 @@ export default function Mintingcomponent() {
         if (chain) {
             if (chain["id"] == 1) {
                 if (collectiontype == 1) {
-                    pullerc721Json(erc721mumbai)
+                    pullerc721Json(erc721goerli)
                 }
                 if (collectiontype == 2) {
                     pullerc1155Json(erc1155goerli)
