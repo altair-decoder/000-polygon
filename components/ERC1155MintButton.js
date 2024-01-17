@@ -95,7 +95,7 @@ export default function ERC1155MintButton(props) {
                                 ></Image>
                             </button>
                         </a>
-                        <a href={`https://testnets.opensea.io/collection/${props.opensea}`}>
+                        <a href={`https://opensea.io/collection/${props.opensea}`}>
                             <button className="">
                                 <Image
                                     src="/opensea.png"
@@ -127,7 +127,7 @@ export default function ERC1155MintButton(props) {
                                 ></Image>
                             </button>
                         </a>
-                        <a href={`https://testnets.opensea.io/collection/${props.opensea}`}>
+                        <a href={`https://opensea.io/collection/${props.opensea}`}>
                             <button className="">
                                 <Image
                                     src="/opensea.png"
