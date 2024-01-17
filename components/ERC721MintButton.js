@@ -249,7 +249,7 @@ export default function ERC721MintButton(props) {
                         </a>
                         <a
                             target="_blank"
-                            href={`https://testnets.opensea.io/collection/${props.opensea}`}
+                            href={`https://opensea.io/collection/${props.opensea}`}
                         >
                             <button className="">
                                 <Image
